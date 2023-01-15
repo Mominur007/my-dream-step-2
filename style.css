@@ -317,7 +317,7 @@ ul li:hover a {
 }
 
 .section-top-content {
-    ont-weight: 400;
+    font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
@@ -429,6 +429,3 @@ ul li:hover a {
 }
 }
 
-/* -------------------------------------------------- */
-/* I am sorry responsive is my devlopment 1st failure  */
-/* =================================================== */
