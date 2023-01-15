@@ -1,0 +1,434 @@
+/* --------------------------
+----websites common code ----
+---------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*------ header section style ------*/
+
+.header {
+    width: 100%;
+    height: 1050px;
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+/* logo style code */
+
+.logo {
+    margin-left: 150px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+/*======================*/
+
+/* nav button style start */
+
+ul {
+    display: flex;
+    margin-right: 100px;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 40px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+ul li:hover a {
+    border-bottom: 2px solid greenyellow;
+}
+
+/* nav battun style end */
+
+/*=========================*/
+
+/* hero area styles code */
+.hero-area {
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.hero-title {
+    margin: auto;
+    width: 850px;
+    height: 225px;
+    text-align: center;
+}
+
+.hero-title-head {
+    display: block;
+    text-transform: none;
+    font-weight: 700;
+    font-size: 64px;
+    margin-bottom: 20px;
+    color: #131313;
+}
+
+
+.hero-content {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 25px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: 0;
+    color: #FFFFFF;
+    margin: 25px 0 30px 0;
+    text-align: center;
+}
+
+.hero-banner>img {
+    width: 80%;
+    height: 500px;
+    margin: 0 120px;
+    padding: 20px;
+}
+
+/* hero area styles end */
+/* ======================= */
+
+/* main area styles code  */
+
+/* first section styles */
+
+.first-section {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.first-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 80px 80px 0 190px;
+}
+
+.section-content>img {
+    width: 300px;
+    height: 300px;
+}
+
+.second-container {
+    text-align: start;
+    margin-right: 100px;
+}
+
+.second-container-title {
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 45px;
+
+}
+
+.title-first-letter {
+    color: #727272;
+
+}
+
+.title-second-letter {
+    color: #131313;
+
+}
+
+.title-third-letter {
+    color: #FF900E;
+}
+
+/* second section style */
+
+.second-section {
+    display: flex;
+    margin: 80px 50px 50px 140px;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-container-2 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.second-section-container {
+    padding: 15px;
+}
+
+.second-title {
+    margin-bottom: 25px;
+}
+
+.title-content {
+    margin-bottom: 15px;
+    border-left: 5px solid #FF900E;
+    line-height: 53px;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.content-head {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
+.content-parent {
+    margin-bottom: 20px;
+}
+
+.second-content-p {
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 25px;
+}
+
+.second-section-container-2>img {
+    width: 708px;
+    height: 986px;
+}
+
+.btn-single {
+    background-color: #FF900E;
+    border: 0;
+    border-radius: 5px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: -100px;
+    width: 300px;
+    height: 150px;
+    text-transform: none;
+    line-height: 16px;
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.btn-single .btn-last {
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/* ========================= */
+/* third- section style */
+
+.third-section {
+    margin-top: 130px;
+    margin-left: auto;
+}
+
+.facts-div {
+    width: 600px;
+    margin-left: 150px;
+}
+
+.facts-title {
+    margin-bottom: 24px;
+}
+
+.facts-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin: 50px auto;
+}
+
+.facts-icon {
+    border: 2px solid greenyellow;
+    border-radius: 8px;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    transition: 0.5s;
+}
+
+.facts-icon-div {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.facts-icon:hover {
+    background-color: chartreuse;
+    border-radius: 8px;
+    transform: rotate(360deg);
+}
+
+.facts-icon-div h2 {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    line-height: 53px;
+}
+
+.facts-icon-div>h5 {
+    font-weight: 600;
+    line-height: 23px;
+    color: #727272;
+}
+
+/* fourth section style */
+.fourth-section {
+    text-align: center;
+}
+
+.fourth-section-top {
+    width: 542px;
+    height: 129px;
+    margin: auto;
+}
+
+.section-top-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.section-top-content {
+    ont-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    margin: 20px auto;
+}
+
+.fourth-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    gap: 60px;
+}
+
+.container-content>img {
+    width: 150px;
+    height: 50px;
+}
+
+/* =============================*/
+/* ----extra feature added -----*/
+/* ============================ */
+.section-title-plus {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    border-bottom: 3px solid greenyellow;
+    padding-bottom: 10px;
+    width: 500px;
+    margin: auto;
+}
+
+.title-plus-container {
+    display: flex;
+    margin: 20px 30px;
+}
+
+.follow {
+    margin: 20px 30px;
+    padding: 20px 40px;
+    background: #fcefea;
+    border-radius: 5px;
+    color: #757575;
+    transition: 0.5s;
+}
+
+.follow:hover {
+    box-shadow: 10px 10px 8px rgb(179, 168, 168);
+}
+
+.plus-title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+/* footer section styles */
+.footer-section {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.footer-div {
+    text-align: center;
+    margin: auto;
+    border: 0;
+    box-shadow: 10px 10px 8px rgb(221, 215, 215);
+    background-color: rgb(248, 246, 232);
+    width: 900px;
+    padding: 20px 20px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+}
+
+/* the end  */
+/* ===================== */
+/* responsive area styles */
+*{
+    box-sizing: border-box;
+}
+
+
+@media screen and (max-width:576px) {
+.facts-container,.facts-div{
+    flex-direction: column;
+   max-width: 500px;
+}
+.fourth-container{
+    flex-direction: column;
+
+}
+.first-section{
+    flex-direction: column;
+}
+.first-container{
+    grid-template-columns: repeat(1.1fr);
+}
+
+.navigation{
+    flex-direction: column;
+}
+.nav-menu{
+    flex-direction: column;
+}
+}
+
+/* -------------------------------------------------- */
+/* I am sorry responsive is my devlopment 1st failure  */
+/* =================================================== */
